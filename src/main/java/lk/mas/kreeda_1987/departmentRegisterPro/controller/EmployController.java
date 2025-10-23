@@ -73,11 +73,12 @@ public class EmployController {
             System.out.println("employ city" + stuCity);
             System.out.println("updated" + tobeUpdateDetails);
         }
-
-    ;
-}
-}
-
-
+    public void deleteEmploy(@RequestHeader ("X-employId") String employId){
+        System.out.println("To be deleted"+ employId);
 
 }
+}
+
+
+
+
